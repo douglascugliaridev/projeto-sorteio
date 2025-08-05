@@ -1,5 +1,7 @@
-function somar(a: number, b: number) {
-    return a + b;
-}
+import carregarPessoas from "./function/carregar-pessoas";
 
-console.log(somar(1, 2));
+const pessoas = carregarPessoas('src/data/dados.csv');
+
+pessoas.forEach(pessoa => {
+    console.log(pessoa.toString());
+});
