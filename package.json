@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/douglascugliaridev/projeto-sorteio/issues"
   },
-  "homepage": "https://github.com/douglascugliaridev/projeto-sorteio#readme"
+  "homepage": "https://github.com/douglascugliaridev/projeto-sorteio#readme",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "@types/terminal-kit": "^2.5.7"
+  },
+  "dependencies": {
+    "terminal-kit": "^3.1.2"
+  }
 }
