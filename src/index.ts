@@ -9,8 +9,10 @@ const azarado = sortearAzarado(pessoas);
 
 terminal.clear();
 
-terminal.white('\n\nO').brightRed(' azarado')
-terminal.bold.brightGreen(' mais sortudo do dia').white(' é: \n');
+terminal.bold.white('Iniciando o Sorteio..').white('\n');
+
+terminal.white('\n\nO').brightRed(' AZARADO')
+terminal.bold.brightGreen(' MAIS SORTUDO DO DIA').white(' é: \n');
 terminal.bold.brightYellow(azarado.toString());
 terminal('\n\n 🎉🎉🎉🎉🎉🎉🎉');
 console.log('');
